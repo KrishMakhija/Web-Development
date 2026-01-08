@@ -1,0 +1,52 @@
+body{
+    box-sizing: border-box;
+    margin: 10;
+    padding: 0;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+list{
+    display: flex;
+}
+
+#a{
+    margin: 0;
+    padding: 0;
+    width: 100px;
+}
+
+.user{
+    width: 100px;
+    height: 30px;
+    color:dodgerblue;
+    background-color:rgb(181, 208, 218);
+    text-align: center;
+    align-content: center;
+    border-radius: 10%;
+}
+
+#b{
+    width: 500px;
+}
+
+#Hero{
+    margin: 10px;
+    padding: 100px;
+    gap: 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.button{
+    width: 200px;
+    height: 50px;
+    align-content: center;
+    text-align: center;
+    background-color: rgb(2, 171, 255);
+    color: white;
+    border-radius: 5%;
+}
