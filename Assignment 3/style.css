@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lightgray;
+}
+
+.container{
+    margin: 100px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100px;
+    border: 1px solid;
+    border-radius: 5%;
+}
+
+.form{
+    display: flex;
+    height: 30px;
+    justify-content: center;
+    gap: 10px;
+}
