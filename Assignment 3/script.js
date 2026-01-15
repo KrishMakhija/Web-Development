@@ -23,7 +23,13 @@ const showText = ()=>{
     
     let heading = document.getElementById("heading");
 
-    let greet = "Hello, "+ text;
-
+    let greet=0;
+    if(text==0){
+        greet ="Hello";
+    }
+    else{
+        greet = "Hello, "+ text;
+    }
+    
     heading.innerText = greet;
 }
